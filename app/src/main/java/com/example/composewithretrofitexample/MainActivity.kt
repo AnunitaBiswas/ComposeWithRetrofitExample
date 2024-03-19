@@ -1,6 +1,5 @@
 package com.example.composewithretrofitexample
 
-import android.media.ImageReader
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -133,6 +132,7 @@ fun Product(product: Product) {
                 contentScale = ContentScale.Crop)
         }
     }
+
     Spacer(modifier = Modifier.height(6.dp))
 
     Text(modifier = Modifier.padding(horizontal = 16.dp),
